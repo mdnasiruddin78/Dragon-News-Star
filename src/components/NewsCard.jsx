@@ -1,5 +1,6 @@
 
 import { FaEye } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 function NewsCard({news}) {
     const {details,image_url,thumbnail_url,total_view,title,author} = news
@@ -33,8 +34,9 @@ function NewsCard({news}) {
       </figure>
 
       {/* Details */}
-      <p className="text-sm text-gray-600 mt-2 mb-4">
-        {details}
+      <p className="text-gray-700 text-sm mb-4">
+        {news.details.slice(0, 150)}...{" "}
+        <Link to={`/news/${news._id}`} className="text-primary">Read More</Link>
       </p>
 
       {/* Footer - Rating and Views */}
