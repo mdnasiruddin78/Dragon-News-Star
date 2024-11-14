@@ -15,9 +15,6 @@ const Homelayout = () => {
                 <section className='w-11/12 mx-auto'>
                     <LatestNews></LatestNews>
                 </section>
-                <section>
-                    
-                </section>
             </header>
             <nav className='w-11/12 mx-auto py-2'>
                 <Navbar></Navbar>
