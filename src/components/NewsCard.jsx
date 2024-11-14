@@ -4,7 +4,7 @@ import { FaEye } from "react-icons/fa";
 function NewsCard({news}) {
     const {details,image_url,thumbnail_url,total_view,title,author} = news
   return (
-    <div className="card w-96 bg-base-100 shadow-md p-4">
+    <div className="card bg-base-100 shadow-md p-4">
       {/* Author and Date */}
       <div className="flex items-center mb-4">
         <img
