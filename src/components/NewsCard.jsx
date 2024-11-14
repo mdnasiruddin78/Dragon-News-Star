@@ -28,7 +28,7 @@ function NewsCard({news}) {
         <img
           src={image_url}
           alt="Thumbnail"
-          className="w-full h-40 object-cover rounded-md"
+          className="w-full object-cover rounded-md"
         />
       </figure>
 
